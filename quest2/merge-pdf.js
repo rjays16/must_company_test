@@ -20,9 +20,9 @@ async function mergePDFs(pdfAPath, pdfBPath, outputPath) {
   fs.writeFileSync(outputPath, mergedBytes);
 
   console.log(`Merged PDF saved: ${outputPath}`);
-  console.log(`   File A pages: ${pdfA.getPageCount()}`);
-  console.log(`   File B pages: ${pdfB.getPageCount()}`);
-  console.log(`   Total pages:  ${pdfA.getPageCount() + pdfB.getPageCount()}`);
+  console.log(`File A pages: ${pdfA.getPageCount()}`);
+  console.log(`File B pages: ${pdfB.getPageCount()}`);
+  console.log(`Total pages:  ${pdfA.getPageCount() + pdfB.getPageCount()}`);
 }
 
 mergePDFs('fileA.pdf', 'fileB.pdf', 'merged.pdf');
