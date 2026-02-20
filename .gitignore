@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Output files
+data/outputs/*
+!data/outputs/.gitkeep
+
+# Logs
+logs/*
+!logs/.gitkeep
+
+# Environment
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# npm
+package-lock.json
