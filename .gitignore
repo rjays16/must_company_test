@@ -1,25 +1,20 @@
-# Dependencies
+# Node modules
 node_modules/
+quest1/node_modules/
+quest2/node_modules/
+quest3/node_modules/
+quest4/node_modules/
 
-# Output files
-data/outputs/*
-!data/outputs/.gitkeep
+# PDF files (optional - remove these lines if you want PDFs tracked)
+# *.pdf
 
 # Logs
-logs/*
-!logs/.gitkeep
+*.log
+logs/
 
-# Environment
+# Environment variables
 .env
-.env.local
 
-# OS
+# OS files
 .DS_Store
 Thumbs.db
-
-# IDE
-.vscode/
-.idea/
-
-# npm
-package-lock.json
