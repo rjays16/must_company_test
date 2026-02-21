@@ -7,15 +7,6 @@
 - Node.js v22+
 - Git
 
-### Clone the repository
-
-```bash
-git clone <your-github-repo-url>
-cd must_company_test
-```
-
----
-
 ## Quest 1 - Web Crawling (RPA)
 
 ```bash
